@@ -77,14 +77,14 @@ async def fetch_xsmb() -> str:
     msg = (
         "🎯 *KẾT QUẢ XỔ SỐ MIỀN BẮC*\n\n"
         f"📅 Ngày: *{ngay}*\n\n"
-        f"🏆 Đặc Biệt: `{join(db)}`\n"
-        f"🥇 Giải nhất: `{join(g1)}`\n"
-        f"🥈 Giải nhì: `{join(g2)}`\n"
-        f"🥉 Giải ba: `{join(g3)}`\n"
-        f"🎖 Giải tư: `{join(g4)}`\n"
-        f"🎯 Giải năm: `{join(g5)}`\n"
-        f"🎲 Giải sáu: `{join(g6)}`\n"
-        f"🍀 Giải bảy: `{join(g7)}`\n"
+        f"🏆 Đặc Biệt: `{join(db)}`\n\n"
+        f"🥇 Giải nhất: `{join(g1)}`\n\n"
+        f"🥈 Giải nhì: `{join(g2)}`\n\n"
+        f"🥉 Giải ba: `{join(g3)}`\n\n"
+        f"🎖 Giải tư: `{join(g4)}`\n\n"
+        f"🎯 Giải năm: `{join(g5)}`\n\n"
+        f"🎲 Giải sáu: `{join(g6)}`\n\n"
+        f"🍀 Giải bảy: `{join(g7)}`\n\n"
     )
     return msg
 
